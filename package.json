@@ -20,7 +20,9 @@
   "homepage": "https://github.com/AntonioValentinSayago/node-js-agencia-de-viajes#readme",
   "dependencies": {
     "express": "^4.18.2",
-    "pug": "^3.0.2"
+    "mysql2": "^3.6.0",
+    "pug": "^3.0.2",
+    "sequelize": "^6.32.1"
   },
   "devDependencies": {
     "nodemon": "^3.0.1"
