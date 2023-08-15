@@ -3,10 +3,24 @@ import express from 'express'
 const router = express.Router();
 
 router.get('/', (req, res) => {
-    res.send('Hola Mundo')
+    res.render('inicio', {
+        pagina: 'Inicio'
+    })
 })
-router.get('/nosostros', (req, res) => {
-    res.render('nosotros')
+router.get('/nosotros', (req, res) => {
+    res.render('nosotros', {
+        pagina: 'Nosotros',
+    })
+})
+router.get('/viajes', (req, res) => {
+    res.render('viajes', {
+        pagina: 'Viajes',
+    })
+})
+router.get('/testimoniales', (req, res) => {
+    res.render('testimoniales', {
+        pagina: 'Testimoniales',
+    })
 })
 
 export default router
