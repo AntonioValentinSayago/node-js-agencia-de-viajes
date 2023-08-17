@@ -1,5 +1,5 @@
-import { Sequelize } from "sequelize";
-import db from "../config/db";
+import  Sequelize  from "sequelize";
+import db from "../config/db.js";
 
 export const Viaje = db.define('viajes', {
     titulo: {
@@ -21,10 +21,10 @@ export const Viaje = db.define('viajes', {
         type: Sequelize.STRING
     },
     disponibles: {
-        typeof: Sequelize.STRING
+        type: Sequelize.STRING
     },
     slug: {
         type:  Sequelize.STRING
     }
-
 })
+
