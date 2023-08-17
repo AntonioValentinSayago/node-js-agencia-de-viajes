@@ -1,8 +1,8 @@
+import { Testimonial } from "../models/Testimoniales.js";
 
-const guardarTestimonial = (req, res)  => {
+const guardarTestimonial = async (req, res)  => {
 
     // Validar Formulario
-
     const { nombre, correo, mensaje } = req.body;
 
     const errores = []
@@ -18,6 +18,9 @@ const guardarTestimonial = (req, res)  => {
     }
 
     if (errores.length > 0) {
+        //Consultar Testimoniales Existentes
+        const testimoniales = await Testimonial.findAll();
+
         //Mostrar la vista con errores
         res.render('testimoniales', {
             pagina: 'Testimonales',
@@ -25,9 +28,21 @@ const guardarTestimonial = (req, res)  => {
             nombre,
             correo,
             mensaje,
+            testimoniales
         })
     }else {
-        
+        // Alnacenar Datos en la base de datos
+        try {
+            await Testimonial.create({
+                nombre,
+                correo,
+                mensaje
+            })
+
+            res.redirect('/testimoniales')
+        } catch (error) {
+            console.log(error);
+        }
     }
 
 }
