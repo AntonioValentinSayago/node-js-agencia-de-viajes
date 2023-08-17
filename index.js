@@ -6,7 +6,6 @@ import db from './config/db.js'
 const app = express();
 
 // Conectar a la base de datos
-
 db.authenticate()
     .then( () => console.log("Conexion exitosa a la base de datos"))
     .catch (err => console.log(err))
@@ -21,7 +20,7 @@ app.set('view engine', 'pug');
 app.use(express.static('public'))
 
 // Habilitar nuestro Middleware Obtener el año actual
-app.use( (req, res, next) => {  // Nex: en la pila de Middleware ir hacia el sigueiente 
+app.use( (req, res, next) => {  // Nex: en la pila de Middleware de Javascript -> ir hacia el sigueiente 
     const year = new Date();
 
     res.locals.ActualYear = year.getFullYear();
