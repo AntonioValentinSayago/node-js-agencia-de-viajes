@@ -16,6 +16,9 @@ const port = process.env.PORT || 3000;
 // Habilitar PUG - Template
 app.set('view engine', 'pug');
 
+// Agregar BODY parse para agregar datos del formulario
+app.use(express.urlencoded({extended: true}));
+
 // Definir la carptea publica 
 app.use(express.static('public'))
 
