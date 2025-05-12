@@ -1,4 +1,4 @@
-# Bienes Raices con Node JS y Sequilize 1.0.2
+# Bienes Raices con Node JS y Sequilize 1.0.2 2024
 
 This repository contains the documentation for our Node.js API. The API allows you to perform various operations related to [describe the purpose of the API].
 
