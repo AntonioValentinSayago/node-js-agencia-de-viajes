@@ -71,6 +71,7 @@ Creates a new user.
   "password": "password123"
 }
 
+```
 ### Endpoints API
 
 | Metodo    | Endpoint                                                           |
