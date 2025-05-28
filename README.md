@@ -1,4 +1,4 @@
-# Ebenezer Chalco (Iglesia principe de Paz) 1.0.0
+# Ebenezer Chalco (Iglesia principe de Paz) 1.0.0 ⛪
 
 Un sistema de asistencia digital que permite registrar usuarios por categorías y tomar su asistencia escaneando un código QR. Desarrollado con React, Next.js, Node.js y MongoDB (Mongoose).
 
