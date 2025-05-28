@@ -1,6 +1,27 @@
 # Ebenezer Chalco (Iglesia principe de Paz) 1.0.0
 
-This repository contains the documentation for our Node.js API. The API allows you to perform various operations related to [describe the purpose of the API].
+Un sistema de asistencia digital que permite registrar usuarios por categorías y tomar su asistencia escaneando un código QR. Desarrollado con React, Next.js, Node.js y MongoDB (Mongoose).
+
+---
+
+## 🛠️ Tecnologías Utilizadas
+
+### Frontend:
+- [Next.js](https://nextjs.org/)
+- [React](https://reactjs.org/)
+- [Axios](https://axios-http.com/)
+- [react-qr-reader](https://www.npmjs.com/package/react-qr-reader)
+
+### Backend:
+- [Node.js](https://nodejs.org/)
+- [Express](https://expressjs.com/)
+- [Mongoose](https://mongoosejs.com/)
+- [MongoDB Atlas](https://www.mongodb.com/cloud/atlas)
+- [dotenv](https://www.npmjs.com/package/dotenv)
+- [jsonwebtoken](https://www.npmjs.com/package/jsonwebtoken)
+- [qrcode](https://www.npmjs.com/package/qrcode)
+
+---
 
 ## Getting Started
 
