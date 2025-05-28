@@ -1,0 +1,20 @@
+{
+  "name": "ebenezer_chalco_1.0.0",
+  "version": "1.0.0",
+  "description": "Sistema de asistencia para ebeneze chalco 1.0.0",
+  "homepage": "https://github.com/AntonioValentinSayago/ebenezer_chalco_1.0.0#readme",
+  "bugs": {
+    "url": "https://github.com/AntonioValentinSayago/ebenezer_chalco_1.0.0/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AntonioValentinSayago/ebenezer_chalco_1.0.0.git"
+  },
+  "license": "ISC",
+  "author": "Antonio Valentin",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run test"
+  }
+}
