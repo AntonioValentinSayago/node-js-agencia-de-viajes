@@ -1,4 +1,4 @@
-# Ebenezer Chalco (Iglesia principe de Paz) 1.0.0
+# Ebenezer Chalco (Iglesia principe de Paz) 1.0.0 ⛪
 
 This repository contains the documentation for our Node.js API. The API allows you to perform various operations related to [describe the purpose of the API].
 
